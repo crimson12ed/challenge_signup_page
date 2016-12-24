@@ -1,0 +1,81 @@
+body {
+	background-color: #4495E4;
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+  box-sizing: border-box;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px
+}
+
+/* The logo */
+.logo, .login-prompt {
+	text-align: center;
+	color: white;
+}
+
+.logo img {
+	height: 35px;
+}
+
+.login-prompt a {
+	color: white;
+}
+
+/* Sign up panel */
+.panel {
+  box-sizing: border-box;
+	margin-top: 30px;
+	margin-bottom: 16px;
+	border-radius: 5px;
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 40px 40px 30px 40px;
+}
+
+.sign-up h1 {
+	text-align: center;
+	font-size: 38px;
+	color: #565B68;
+}
+
+.sign-up form {
+	margin-top: 30px;
+}
+
+.sign-up-item {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.sign-up input, .sign-up button {
+	box-sizing: border-box;
+	width: 320px;
+	height: 55px;
+	padding: 15px;
+	border-radius: 5px;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.sign-up input {
+  font-size: 1em;
+  border-color: #F0F0F0;
+}
+
+.sign-up button {
+  margin-top: 24px;
+  border-color: #69C373;
+  background-color: #69C373;
+  color: #FFFFFF;
+  font-size: 1.3em;
+}
+
+a.sign-up-item {
+	text-align: center;
+	color: gray;
+	font-size: 0.875em;
+}
